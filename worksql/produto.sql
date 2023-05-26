@@ -1,0 +1,1 @@
+INSERT INTO produtos (nome, preco, descricao) VALUES ('Mr.beast', 100000, 'RICO PRA KRAI');

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <meta charset="UTF-8">
+    <title>Formulário para gerar SQL e JSON</title>
+  </head>
+  <body>
+    <br>
+    <h1>Cadastro de Produtos</h1>
+    <form method="post" action="gerar_sql_json.php">
+      <label for="nome">Nome do Produto:</label>
+      <input type="text" name="nome" id="nome"><br><br>
+      
+      <label for="preco">Preço do Produto:</label>
+      <input type="number" name="preco" id="preco"><br><br>
+      
+      <label for="descricao">Descrição do Produto:</label>
+      <textarea name="descricao" id="descricao"></textarea><br><br>
+      
+      <input type="submit" value="Cadastrar Produto">
+    </form>
+  </body>
+</html>
